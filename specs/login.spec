@@ -1,7 +1,7 @@
 # Login Specification
 
 <pre>
-Project Name    : MaxSoft-WebBot
+Project Name    : MaxSoft-WebBot-Demo
 Developer       : Osanda Deshan
 Version         : 1.0.0
 Date            : 29/03/2019
