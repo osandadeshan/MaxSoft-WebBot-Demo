@@ -4,7 +4,7 @@ echo Executing MaxSoft WebBot Demo Test Automation Suite.............
 cd ..
 cd ..
 
-call mvn test-compile gauge:execute -DspecsDir="specs/search.spec" -Denv="dev"
+call mvn test-compile gauge:execute -DspecsDir="specs" -Denv="dev"
 echo Exit Code = %ERRORLEVEL%
 if not "%ERRORLEVEL%" == "0" exit /b
 
