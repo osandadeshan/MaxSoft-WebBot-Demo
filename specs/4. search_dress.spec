@@ -1,7 +1,7 @@
 # Search Dress Specification
 
 <pre>
-Project Name    : MaxSoft-WebBot-Demo
+Project Name    : MaxSoft-WebBot
 Developer       : Osanda Deshan
 Version         : 1.0.0
 Date            : 13/04/2019
@@ -36,7 +36,7 @@ Tags: search
    |Press Enter           |yes                                      |HomePage          |txt_search_bar      |                               |                              |                                       |\ue007        |
 
 * Replace Element Locator Placeholder And Save To Data Store
-   |Step Name                |Sheet Name|Element Name      |Placeholder Text|Is Replacement Text Retrieve From Data Store |If Yes, Data Store Type|If Yes, Data Store Variable Name|If No, Replacement Text |Data Store Type To Save Final Locator|Data Store Variable Name To Save Final Locator|
+   |Step Name                |Sheet Name|Element Name      |Placeholder Text|Is Replacement Text Retrieve From Data Store?|If Yes, Data Store Type|If Yes, Data Store Variable Name|If No, Replacement Text |Data Store Type To Save Final Locator|Data Store Variable Name To Save Final Locator|
    |-------------------------|----------|------------------|----------------|---------------------------------------------|-----------------------|--------------------------------|------------------------|-------------------------------------|----------------------------------------------|
    |Get search result locator|HomePage  |lbl_search_result |searchText      |yes                                          |scenario               |searchVal                       |                        |scenario                             |searchResultLocator                           |
 
@@ -84,7 +84,7 @@ Tags: search
    |Click on Search button |yes                                      |HomePage          |btn_search          |                               |                              |                                       |
 
 * Replace Element Locator Placeholder And Save To Data Store
-   |Step Name                |Sheet Name|Element Name      |Placeholder Text|Is Replacement Text Retrieve From Data Store |If Yes, Data Store Type|If Yes, Data Store Variable Name|If No, Replacement Text |Data Store Type To Save Final Locator|Data Store Variable Name To Save Final Locator|
+   |Step Name                |Sheet Name|Element Name      |Placeholder Text|Is Replacement Text Retrieve From Data Store?|If Yes, Data Store Type|If Yes, Data Store Variable Name|If No, Replacement Text |Data Store Type To Save Final Locator|Data Store Variable Name To Save Final Locator|
    |-------------------------|----------|------------------|----------------|---------------------------------------------|-----------------------|--------------------------------|------------------------|-------------------------------------|----------------------------------------------|
    |Get search result locator|HomePage  |lbl_search_result |searchText      |yes                                          |scenario               |searchVal                       |                        |scenario                             |searchResultLocator                           |
 
@@ -97,12 +97,12 @@ Tags: search
 
 ## Search T-Shirt by inputing text directly to the text box in data store
 
-* Save the values inside data stores
+* Save Values To Data Stores
    |Data Store Type|Data Store Variable Name|Value To Be Stored  |
    |---------------|------------------------|--------------------|
    |scenario       |searchDressTextBox      |search_query_top    |
 
-* Read the values from data stores
+* Read The Values From Data Stores
    |Data Store Type|Data Store Variable Name|
    |---------------|------------------------|
    |scenario       |searchDressTextBox      |
@@ -131,12 +131,12 @@ Tags: search
    |----------|-----------------|---------------|------------------------|
    |SearchData|tShirtDress      |scenario       |searchVal               |
 
-* Save the values inside data stores
+* Save Values To Data Stores
    |Data Store Type|Data Store Variable Name|Value To Be Stored  |
    |---------------|------------------------|--------------------|
    |scenario       |searchDressTextBox      |search_query_top    |
 
-* Read the values from data stores
+* Read The Values From Data Stores
    |Data Store Type|Data Store Variable Name|
    |---------------|------------------------|
    |scenario       |searchDressTextBox      |
